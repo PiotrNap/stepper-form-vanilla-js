@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stepper Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="stepper">
+        <div class="step--1 step-active">Step 1</div>
+        <div class="step--2">Step 2</div>
+        <div class="step--3">Step 3</div>
+        <div class="step--4">Finish</div>
+      </div>
+      <form class="form form-active">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Registration Form
+          </h1>
+
+          <p class="form--header-text">
+            Follow the steps below.
+          </p>
+        </div>
+        <input type="text" placeholder="First name..." />
+        <input type="text" placeholder="Last name..." />
+        <button class="form__btn" id="btn-1">Next</button>
+      </form>
+      <form class="form">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Registration Form
+          </h1>
+
+          <p class="form--header-text">
+            Follow the steps below.
+          </p>
+        </div>
+
+        <input type="email" placeholder="Email..." />
+        <input type="text" placeholder="Phone number..." />
+        <button class="form__btn" id="btn-2-prev">Previous</button>
+        <button class="form__btn" id="btn-2-next">Next</button>
+      </form>
+      <form class="form">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Registration
+          </h1>
+
+          <p class="form--header-text">
+            Follow the steps below.
+          </p>
+        </div>
+        <input type="text" placeholder="Username..." />
+        <input type="password" placeholder="Password..." />
+        <button class="form__btn" id="btn-3">Submit</button>
+      </form>
+      <div class="form--message"></div>
+    </main>
+  </body>
+</html>
