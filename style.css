@@ -69,7 +69,7 @@ main {
   padding: 0.5rem 0;
 }
 
-input[type="text"] {
+input {
   padding: 0.8rem;
   margin: auto;
   margin-top: 0.5rem;
